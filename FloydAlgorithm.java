@@ -1,5 +1,5 @@
-import java.util.Iterator;
-
+/* Algoritmo de la ruta más corta que será utilizado. Tomada de 'Java Structures – Duane A. Bailey'
+ */
 public class FloydAlgorithm<V, E extends Number> {
 
     public void ejecutar(Graph<V, E> g) {

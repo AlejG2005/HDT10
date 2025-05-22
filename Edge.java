@@ -1,3 +1,6 @@
+/* Clase que representa una arista en el grafo. Como atributos tiene 2 vértices que será a los que está conectado, el label, si está visitado
+o no y si es dirigido o no.
+ */
 public class Edge<V, E> {
     protected V vtx1, vtx2;
     protected E label;

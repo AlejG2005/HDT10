@@ -1,5 +1,5 @@
 /* Clase que representa un vértice en el grafo. Como atributo solo tiene
- * label que es su nombre y visited que es el vértice del que venimos.
+ * label que es su nombre y visited que indica si ya pasamos por el o no.
  */
 
 public class Vertex<E> {
